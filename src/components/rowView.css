@@ -1,0 +1,37 @@
+.Row_main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+
+  margin-right: 2%;
+
+  /* background-color: gainsboro; */
+  height: 60px;
+  width: 96%;
+}
+.Row_item {
+  flex: 1;
+  text-decoration: wavy;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 600px) {
+  Row_main_div {
+    margin-left: 2%;
+
+    margin-right: 2%;
+
+    background-color: gainsboro;
+    height: 60px;
+    width: 96%;
+  }
+  .Row_item {
+    flex: 1;
+    text-decoration: wavy;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

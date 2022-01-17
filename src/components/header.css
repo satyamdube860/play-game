@@ -1,0 +1,88 @@
+.header_main {
+  display: flex;
+
+  align-items: center;
+  background-color: aliceblue;
+  height: 100px;
+}
+.brand_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  height: 100px;
+  width: 250px;
+  color: black;
+  cursor: pointer;
+}
+.brand_name {
+  font-size: 30px;
+}
+.balance_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  position: absolute;
+  right: 250px;
+}
+.balance_name {
+  font-size: 30px;
+}
+.avatar_div {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  position: absolute;
+  right: 130px;
+  cursor: pointer;
+}
+.avatar_name {
+  font-size: 30px;
+}
+.login_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .brand_div {
+    font-weight: 800;
+    height: 100px;
+    width: 100px;
+  }
+  .brand_name {
+    font-size: 20px;
+  }
+  .balance_div {
+    width: 100px;
+    position: absolute;
+    right: 180px;
+  }
+  .balance_name {
+    font-size: 20px;
+  }
+
+  .avatar_div {
+    width: 100px;
+    position: absolute;
+    right: 100px;
+  }
+  .avatar_name {
+    font-size: 20px;
+  }
+  .login_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+  }
+}

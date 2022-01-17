@@ -1,0 +1,28 @@
+.Header_main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+
+  background-color: bisque;
+  height: 80px;
+  width: 96%;
+}
+.Header_item {
+  flex: 1;
+  text-decoration: wavy;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .Header_main_div {
+    margin: 2%;
+    height: 60px;
+    width: 96%;
+  }
+  .Header_item {
+    font-size: 15px;
+  }
+}

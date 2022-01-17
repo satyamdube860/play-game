@@ -1,0 +1,39 @@
+.button_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin: 2%;
+  padding: 2%;
+}
+.btn_play {
+  margin: 10px;
+}
+.btn {
+  margin: 10px;
+}
+.error_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: red;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .error_div {
+    font-size: 16px;
+
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .error_div {
+    font-size: 18px;
+
+    margin: 30px;
+  }
+}
